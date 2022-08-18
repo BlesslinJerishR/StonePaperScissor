@@ -6,8 +6,7 @@
     --light-color: #f4f4f4;
     --lose-color: #dc3545;
     --win-color: #28a745;
-    --green-color: #00FF00;
-    --modal-duration: 1s;
+    --green-color: #00ff00;
 }
 
 *{
@@ -19,8 +18,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     line-height:1.6;
-    background: #fff;
+    background: rgb(0, 225, 255);
     color: #333;
+
 }
 
 .container{
@@ -40,6 +40,7 @@ body{
     cursor: pointer;
     outline: none;
     border: none;
+    margin-bottom: 1rem;
 }
 
 .restart-btn:hover{
@@ -84,7 +85,15 @@ body{
 }
 
 .choice:hover{
-    color: var(--green-color);
+    color: var(--primary-color);
+}
+
+.text-win{
+    color: var(--win-color);
+}
+
+.text-lose{
+    color: var(--lose-color);
 }
 
 @media(max-width: 700px){
@@ -97,4 +106,18 @@ body{
     .choice{
         font-size: 80px;
     }
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    margin-left: 45%;
+    margin-bottom: 3%;
+    
+}
+
+#heart{
+    position: relative;
+    top: 10px;
 }
