@@ -1,2 +1,3 @@
-# StonePaperScissor
-Stone Paper Scissor Game made using Vanilla JS.
+## StonePaperScissor
+- Stone Paper Scissor Game made using Vanilla JS.
+#### [ Developer : Jerry ]
